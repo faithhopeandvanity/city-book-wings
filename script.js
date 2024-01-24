@@ -1,3 +1,16 @@
+
+//create var for cities
+//make sure each one matches the city name verbatim as configured in the API.
+var cities = [
+    "London, United Kingdom",
+    "Luanda, Angola",
+    "Berlin, Germany",
+    "Dublin, Ireland",
+    "Madrid, Spain",
+    "Beijing, China",
+    "Mumbai, India",
+];
+
 function getbooks() {
     //const queryURL = `http://openlibrary.org/search.json?q=london`
 
@@ -25,18 +38,6 @@ function bookSubject() {
 //when button is clicked
 // onclick="getbooks()"
 
-//create var for cities
-//make sure each one matches the city name verbatim as configured in the API.
-var cities = [
-    "London, United Kingdom",
-    "Luanda, Angola",
-    "Berlin, Germany",
-    "Dublin, Ireland",
-    "Madrid, Spain",
-    "New York City",
-    "Singapore",
-    "Mumbai, India",
-];
 //target cities el in html
 var destCityName = document.querySelectorAll(".cities");
 console.log(destCityName);
